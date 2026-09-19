@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Deja de armar el mismo Excel todos los lunes — Miguel Valenzuela</title>
+        <meta name="description" content="Cómo funciona la reportería automática, qué se necesita para montarla y cuánto tiempo real le devuelve a tu equipo cada semana." />
+        <link rel="canonical" href="https://miguelvalenzuelaparada.vercel.app/blog/reporteria-automatica.html" />
+        <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon" />
+
+        <meta property="og:title" content="Deja de armar el mismo Excel todos los lunes" />
+        <meta property="og:description" content="Cómo funciona la reportería automática y cuánto tiempo real le devuelve a tu equipo." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://miguelvalenzuelaparada.vercel.app/blog/reporteria-automatica.html" />
+        <meta property="og:locale" content="es_CL" />
+
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Deja de armar el mismo Excel todos los lunes",
+            "datePublished": "2026-09-19",
+            "inLanguage": "es-CL",
+            "author": { "@type": "Person", "name": "Miguel Ignacio Valenzuela Parada", "url": "https://miguelvalenzuelaparada.vercel.app/" }
+        }
+        </script>
+
+        <link rel="stylesheet" href="../css/tailwind-build.css" />
+        <link rel="stylesheet" href="../css/index.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+            integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-[#070b14] tw-text-white">
+        <header class="tw-flex tw-h-[60px] tw-w-full tw-place-items-center tw-justify-between tw-px-[5%]">
+            <a class="tw-flex tw-h-[50px] tw-place-items-center tw-gap-2 tw-p-[4px] tw-text-xl tw-font-semibold" href="../">
+                <span class="tw-flex tw-h-[34px] tw-w-[34px] tw-place-content-center tw-place-items-center tw-rounded-lg tw-bg-gradient-to-br tw-from-cyan-400 tw-to-violet-600 tw-font-bold tw-text-white">M</span>
+                <span>Miguel<span class="tw-text-cyan-400">.dev</span></span>
+            </a>
+            <a href="./" class="tw-flex tw-place-items-center tw-gap-2 tw-text-gray-300 tw-transition-colors hover:tw-text-cyan-300">
+                <i class="bi bi-arrow-left"></i> Volver al blog
+            </a>
+        </header>
+
+        <main class="tw-mx-auto tw-flex tw-w-full tw-max-w-[760px] tw-flex-col tw-px-6 tw-py-16">
+            <span class="tw-text-sm tw-text-gray-500">19 sept 2026 · Datos</span>
+            <h1 class="tw-mt-3 tw-text-4xl tw-font-bold tw-leading-tight max-lg:tw-text-3xl">
+                Deja de armar el mismo Excel <span class="tw-bg-gradient-to-r tw-from-cyan-400 tw-to-violet-500 tw-bg-clip-text tw-text-transparent">todos los lunes</span>
+            </h1>
+
+            <div class="tw-mt-10 tw-flex tw-flex-col tw-gap-6 tw-text-lg tw-leading-relaxed tw-text-gray-300">
+                <p>
+                    En casi toda empresa hay una persona que dedica parte del lunes — a veces el lunes entero — a armar "el reporte". Exporta datos del sistema, los pega en una planilla, ajusta fórmulas que se rompieron, da formato, y lo envía por correo. La semana siguiente, exactamente lo mismo. Ese trabajo se puede eliminar por completo, y no es caro hacerlo.
+                </p>
+
+                <h2 class="tw-mt-4 tw-text-2xl tw-font-semibold tw-text-white">Qué es la reportería automática</h2>
+                <p>
+                    Es un proceso que se conecta directo a la fuente de los datos — tu ERP, tu base de datos, tu sistema de ventas — arma el reporte con las mismas reglas de siempre y lo entrega solo: por correo, por WhatsApp o Telegram, o en un panel siempre actualizado. Se ejecuta a la hora programada, sin que nadie lo gatille.
+                </p>
+                <p>
+                    La diferencia clave con el proceso manual no es solo la velocidad: es que el reporte automático sale <em>siempre</em> — aunque la persona esté de vacaciones, con licencia o apagando otro incendio — y sale siempre igual, sin errores de copiado ni fórmulas rotas.
+                </p>
+
+                <h2 class="tw-mt-4 tw-text-2xl tw-font-semibold tw-text-white">Cuánto tiempo devuelve, en números</h2>
+                <p>
+                    Hagamos el cálculo conservador: un reporte que toma 3 horas semanales son 12 horas al mes, unas 150 horas al año — casi un mes completo de trabajo de una persona, dedicado a copiar y pegar. Y ese suele ser solo uno de los reportes; la mayoría de las empresas arma varios.
+                </p>
+                <p>
+                    El montaje de un reporte automático, en cambio, se hace una vez. Después corre solo, todos los días o todas las semanas, por años.
+                </p>
+
+                <h2 class="tw-mt-4 tw-text-2xl tw-font-semibold tw-text-white">Más allá del reporte: las alertas</h2>
+                <p>
+                    El paso siguiente natural es no esperar al lunes. Si un producto quedó con stock negativo, si un despacho lleva 7 días estancado, si una factura venció sin pagarse — el sistema puede avisar el mismo día, directo al teléfono del responsable. El reporte semanal muestra tendencias; las alertas evitan pérdidas mientras todavía hay tiempo de reaccionar.
+                </p>
+
+                <h2 class="tw-mt-4 tw-text-2xl tw-font-semibold tw-text-white">Qué se necesita para montarlo</h2>
+                <p>
+                    <strong class="tw-text-white">1. Acceso a la fuente de datos.</strong> Si usas un ERP como Odoo, una base de datos o incluso Google Sheets, se puede conectar. Lo importante es que el dato viva en un sistema, no en la cabeza de alguien.
+                </p>
+                <p>
+                    <strong class="tw-text-white">2. Definir el reporte una sola vez, bien.</strong> Qué indicadores, con qué filtros, quién lo recibe y cuándo. Este es el momento de limpiar: la mitad de los reportes manuales arrastran columnas que ya nadie mira.
+                </p>
+                <p>
+                    <strong class="tw-text-white">3. Elegir el canal de entrega.</strong> Correo con el archivo adjunto, mensaje directo con el resumen, o un panel en línea. Regla práctica: el reporte debe llegar adonde la persona ya mira, no obligarla a entrar a otro sistema.
+                </p>
+
+                <h2 class="tw-mt-4 tw-text-2xl tw-font-semibold tw-text-white">El verdadero beneficio</h2>
+                <p>
+                    No es solo el tiempo. Cuando el reporte se arma solo, la conversación del equipo cambia: se deja de discutir si los números están bien y se empieza a discutir qué hacer con ellos. Esa es la diferencia entre administrar datos y usarlos.
+                </p>
+            </div>
+
+            <div class="tw-mt-14 tw-flex tw-flex-col tw-gap-4 tw-rounded-xl tw-border tw-border-solid tw-border-gray-700/60 tw-bg-[#0d1424] tw-p-8 tw-text-center">
+                <h3 class="tw-text-2xl tw-font-semibold">¿Cuál es el reporte que más tiempo te roba?</h3>
+                <p class="tw-text-gray-400">Cuéntame cómo lo armas hoy y te digo cómo dejarlo corriendo solo.</p>
+                <a href="mailto:miguel.valenzuela531@gmail.com" class="tw-mx-auto tw-flex tw-h-[46px] tw-w-fit tw-place-items-center tw-gap-2 tw-rounded-full tw-bg-gradient-to-r tw-from-cyan-500 tw-to-violet-600 tw-px-7 tw-font-medium tw-text-white tw-transition-transform hover:tw-scale-105">
+                    Escríbeme <i class="bi bi-envelope-fill"></i>
+                </a>
+            </div>
+        </main>
+
+        <hr class="tw-mt-4 tw-border-gray-800" />
+        <footer class="tw-mt-auto tw-flex tw-min-h-[100px] tw-w-full tw-place-content-around tw-place-items-center tw-gap-3 tw-p-[2%] tw-px-[10%] max-md:tw-flex-col">
+            <div class="tw-flex tw-gap-6 tw-text-2xl">
+                <a href="https://github.com/cyphertechnologiesinc-star" aria-label="Github" class="tw-text-gray-400 tw-transition-colors hover:tw-text-cyan-400"><i class="bi bi-github"></i></a>
+                <a href="https://linkedin.com/in/miguelvalenzuelaparada" aria-label="LinkedIn" class="tw-text-gray-400 tw-transition-colors hover:tw-text-cyan-400"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:miguel.valenzuela531@gmail.com" aria-label="email" class="tw-text-gray-400 tw-transition-colors hover:tw-text-cyan-400"><i class="bi bi-envelope-fill"></i></a>
+            </div>
+            <p class="tw-text-gray-500">© 2026 Miguel Ignacio Valenzuela Parada</p>
+        </footer>
+    </body>
+</html>
