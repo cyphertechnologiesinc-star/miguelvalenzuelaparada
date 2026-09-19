@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root{
 
     --btn-color: #fdfdfd;/* button color*/
     --btn-bg: #0d0d0d;/* button bg color*/
 
-    --primary-text-color: #000;
-    --header-link-hover: #dddcdccf;
+    --primary-text-color: #fff;
+    --header-link-hover: #1c2740;
     --footer-link-hover: #6dbb00;
     --input-focus-bd-color: #0d0d0d;
 }
@@ -14,7 +14,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: "Roboto", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 header{
@@ -192,14 +192,14 @@ header > .collapsible-header{
         padding-top: 5%;
         padding-bottom: 5%;
         place-items: end;
-        background-color: #ffffff;
-        color: #000000;
+        background-color: #0d1424;
+        color: #ffffff;
         overflow-y: auto;
         box-shadow: 2px 0px 3px #000;
     }
 
     .header-links{
-        color: black;
+        color: white;
     }
     
 }
